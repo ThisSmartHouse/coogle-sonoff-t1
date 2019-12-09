@@ -44,7 +44,11 @@
 #endif
 
 #ifndef APP_NAME
-#define APP_NAME "Coogle SWB1 4-Relay Switch"
+#define APP_NAME "Coogle Sonoff T1"
+#endif
+
+#ifndef MQTT_UNIQUE_ID
+#define MQTT_UNIQUE_ID "Workshop"
 #endif
 
 #ifndef MQTT_TOPIC_MAX_LEN

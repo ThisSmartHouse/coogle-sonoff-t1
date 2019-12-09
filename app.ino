@@ -51,6 +51,37 @@ void setupSerial()
 	Serial.printf(APP_NAME " v%s (%s) (built: %s %s)\r\n", _BuildInfo.src_version, _BuildInfo.env_version, _BuildInfo.date, _BuildInfo.time);
 }
 
+void setSwitchState(uint8_t switch_idx, uint8_t state)
+{
+	char msg[150];
+	app_config_t *config;
+
+	digitalWrite(switch_map[switch_idx], state);
+
+	if(!configManager) {
+		return;
+	}
+
+	if(!configManager->loaded) {
+		return;
+	}
+
+	config = (app_config_t *)configManager->getConfig();
+
+	if(!mqttManager->connected()) {
+		LOG_WARN("Not connected to MQTT so can't update state!");
+		return;		
+	}
+
+	snprintf(msg, 150, config->mqtt_state_topic, switch_idx + 1);
+	
+	if(state == HIGH) {
+		mqtt->publish(msg, "1", true);	
+	} else {
+		mqtt->publish(msg, "0", true);
+	}
+}
+
 void setupRelays()
 {
 	char msg[150];
@@ -63,20 +94,10 @@ void setupRelays()
      	pinMode(switch_map[i], OUTPUT);
      	
      	if(config->turn_on_at_boot) {
-     		digitalWrite(switch_map[i], HIGH);
+     		setSwitchState(i, HIGH);
      	} else {
-     		digitalWrite(switch_map[i], LOW);
+     		setSwitchState(i, LOW);
      	}
-
-     	snprintf(msg, 150, config->mqtt_state_topic, i + 1);
-		
-		if(config->turn_on_at_boot) {
-     		mqtt->publish(msg, "1", true);
-     	} else {
-     		mqtt->publish(msg, "0", true);
-     	}
-
-     	LOG_PRINTF(INFO, "Published Initial State to: %s", msg);
 
      	snprintf(msg, 150, config->mqtt_topic, i + 1);
      	mqtt->subscribe(msg);
@@ -142,7 +163,7 @@ void setupMQTT()
 	mqttManager->setConfigManager(configManager);
 	mqttManager->setWifiManager(WiFiManager);
 	mqttManager->initialize();
-	mqttManager->setClientId(APP_NAME);
+	mqttManager->setClientId(APP_NAME MQTT_UNIQUE_ID);
 	mqttManager->setConnectCallback(setupRelays);
 	mqttManager->connect();
 
@@ -339,16 +360,15 @@ void loop()
 
 				if((millis() - lastToggleTimes[i]) >= config->debounce_time) {
 
+					LOG_PRINTF(DEBUG, "Button #%d pressed", i + 1);
+
+
 					// Build mqtt topic
 
 					if(digitalRead(switch_map[i]) == HIGH) {
-						digitalWrite(switch_map[i], LOW);
-
-						// send mqtt topic
+						setSwitchState(i, LOW);
 					} else {
-						digitalWrite(switch_map[i], HIGH);
-
-						// send mqtt topic
+						setSwitchState(i, HIGH);
 					}
 
 					lastToggleTimes[i] = millis();

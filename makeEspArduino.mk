@@ -42,7 +42,7 @@ HTTP_PWD ?= user
 HTTP_USR ?= password
 
 # Make sure these match what you put in app.ld!
-SPIFFS_ADDR ?= 0xF3FF0
+SPIFFS_ADDR ?= 0x83000
 SPIFFS_SIZE ?= 0x8000
 SPIFFS_PAGE_SIZE ?= 0x80
 SPIFFS_BLOCK_SIZE ?= 0x1000
@@ -327,8 +327,8 @@ endif
 
 upload flash: all $(FS_IMAGE)
 	#echo $(UPLOAD_COM)
-	echo $(ESPTOOL_PY) write_flash --flash_mode dio --flash_freq 40m -fs 1MB 0x0000 $(BOOT_LOADER) 0x2000 $(MAIN_EXE) $(SPIFFS_ADDR) $(FS_IMAGE) 0xFC000 esp_init_data_default.bin
-	$(ESPTOOL_PY) write_flash --flash_mode dio --flash_freq 40m -fs 1MB 0x0000 $(BOOT_LOADER) 0x2000 $(MAIN_EXE) $(SPIFFS_ADDR) $(FS_IMAGE) 0xFC000 esp_init_data_default.bin
+	echo $(ESPTOOL_PY) write_flash --verify --flash_mode dout --flash_freq 80m -fs 1MB 0x0000 $(BOOT_LOADER) 0x2000 $(MAIN_EXE) $(SPIFFS_ADDR) $(FS_IMAGE) 0xFC000 esp_init_data_default.bin
+	$(ESPTOOL_PY) write_flash --verify --flash_mode dout --flash_freq 80m -fs 1MB 0x0000 $(BOOT_LOADER) 0x2000 $(MAIN_EXE) $(SPIFFS_ADDR) $(FS_IMAGE) 0xFC000 esp_init_data_default.bin
 	#$(ESPTOOL) -bz 4M -cd ck -cb $(UPLOAD_SPEED) -ca 0x00000 -cf $(BOOT_LOADER) -ca 0x2000 $(MAIN_EXE)"
 
 vars: 

@@ -4,7 +4,7 @@ BOARD = generic
 UPLOAD_SPEED = 115200
 
 # Path to the ESP8266 NONOS SDK
-ESP_ROOT = $(HOME)/esp8266
+ESP_ROOT ?= $(HOME)/esp8266
 
 # Path where we can find the esptool (note this isn't esptool.py)
 ESPTOOL = $(ESP_ROOT)/tools/esptool/esptool

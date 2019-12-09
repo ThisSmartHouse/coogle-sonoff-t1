@@ -41,8 +41,8 @@ MEMORY
  * For some silly reason you have to add 0x40200000 to the offset here,
  * even though it's basically just subtracted later in the Arudino library
  */
-PROVIDE ( _SPIFFS_start = 0x402F3FF0 );
-PROVIDE ( _SPIFFS_end = 0x402FBFF0 );
+PROVIDE ( _SPIFFS_start = 0x40283000 );
+PROVIDE ( _SPIFFS_end =   0x4028B000 );
 PROVIDE ( _SPIFFS_page = 0x80 );
 PROVIDE ( _SPIFFS_block = 0x1000 );
 

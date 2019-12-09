@@ -1,0 +1,881 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mqtt",
+				"mqtt"
+			],
+			[
+				"app_conf",
+				"app_config_t"
+			],
+			[
+				"group_b",
+				"group_b_median"
+			],
+			[
+				"group_",
+				"group_a_median"
+			],
+			[
+				"nation",
+				"national_median_atb"
+			],
+			[
+				"validationError",
+				"validationErrorDialog"
+			],
+			[
+				"passwordRe",
+				"passwordResetSubmit"
+			],
+			[
+				"inst",
+				"institution"
+			],
+			[
+				"in",
+				"institutions"
+			],
+			[
+				"instit",
+				"institution"
+			],
+			[
+				"institu",
+				"institution_id"
+			],
+			[
+				"new",
+				"new_user_form"
+			],
+			[
+				"repo",
+				"respositories"
+			],
+			[
+				"Sig",
+				"SignatureV4"
+			],
+			[
+				"total",
+				"totalDeletes"
+			],
+			[
+				"newUser",
+				"newUserEmails"
+			],
+			[
+				"ins",
+				"institutionRole"
+			],
+			[
+				"benefit",
+				"benefitPi"
+			],
+			[
+				"bene",
+				"benefitPi"
+			],
+			[
+				"benef",
+				"benefitDocFile"
+			],
+			[
+				"group_a",
+				"group_a_data"
+			],
+			[
+				"insti",
+				"institution_one"
+			],
+			[
+				"institut",
+				"institution"
+			],
+			[
+				"settlm",
+				"settlementSummaryFile"
+			],
+			[
+				"settlementSummar",
+				"settlementSummaryFile"
+			],
+			[
+				"settle",
+				"settlementSummaryFile"
+			],
+			[
+				"settlement",
+				"settlementSummaryFile"
+			],
+			[
+				"allResul",
+				"allResultScores"
+			],
+			[
+				"instituti",
+				"institution_count"
+			],
+			[
+				"stor",
+				"storedImage"
+			],
+			[
+				"section",
+				"section_defs_file"
+			],
+			[
+				"employeeGro",
+				"employeeGroups"
+			],
+			[
+				"institution_b",
+				"institution_bargaining_unit_employment_groups"
+			],
+			[
+				"Employ",
+				"EmploymentGroup"
+			],
+			[
+				"nationa",
+				"nationalData"
+			],
+			[
+				"median",
+				"medianData"
+			],
+			[
+				"media",
+				"medianData"
+			],
+			[
+				"institution",
+				"institution_id"
+			],
+			[
+				"instint",
+				"institution"
+			],
+			[
+				"mark",
+				"markdown_en"
+			],
+			[
+				"has",
+				"hasRole"
+			],
+			[
+				"delete",
+				"deleteGroup"
+			],
+			[
+				"instutti",
+				"institutionGroups"
+			],
+			[
+				"instA",
+				"instAData"
+			],
+			[
+				"instB",
+				"instBData"
+			],
+			[
+				"generate",
+				"generateDataSetFromQuery"
+			],
+			[
+				"average",
+				"average_salary"
+			],
+			[
+				"med",
+				"median_salary"
+			],
+			[
+				"barga",
+				"bargaining_units"
+			],
+			[
+				"bargin",
+				"bargainingUnits"
+			],
+			[
+				"barg",
+				"bargainingUnit"
+			],
+			[
+				"bar",
+				"bargainingUnit"
+			],
+			[
+				"Agreement",
+				"AgreementUploaded"
+			],
+			[
+				"AgreementUp",
+				"AgreementUploadedListener"
+			],
+			[
+				"STATUS",
+				"STATUS_RATIFIED"
+			],
+			[
+				"Dashboard",
+				"DashboardNotification"
+			],
+			[
+				"jobStatus",
+				"jobStatusId"
+			],
+			[
+				"onScro",
+				"onScrollRightClick"
+			],
+			[
+				"jobSt",
+				"jobStatusId"
+			],
+			[
+				"defa",
+				"default_filename"
+			],
+			[
+				"Institution",
+				"Institution"
+			],
+			[
+				"setupM",
+				"setupMQTTi"
+			],
+			[
+				"get",
+				"getHeapFragmentation"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 915,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "makeEspArduino.mk",
+			"settings":
+			{
+				"buffer_size": 26157,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.ld",
+			"settings":
+			{
+				"buffer_size": 2311,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.ino",
+			"settings":
+			{
+				"buffer_size": 9503,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.h",
+			"settings":
+			{
+				"buffer_size": 3893,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/config.json",
+			"settings":
+			{
+				"buffer_size": 589,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/User/esp8266.sublime-build",
+					""
+				],
+				[
+					"Packages/User/esp8266.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/User/esp8266.sublime-build",
+					"Flash"
+				]
+			],
+			[
+				"Packages/User/esp8266.sublime-build",
+				"Flash"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/User/esp8266.sublime-build",
+					""
+				],
+				[
+					"Packages/User/esp8266.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/User/esp8266.sublime-build",
+					"Flash"
+				]
+			],
+			[
+				"Packages/User/esp8266.sublime-build",
+				"Flash"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/esp8266.sublime-build",
+					""
+				],
+				[
+					"Packages/User/esp8266.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/User/esp8266.sublime-build",
+					"Flash"
+				],
+				[
+					"Packages/User/esp8266.sublime-build",
+					"Stack Dump"
+				]
+			],
+			[
+				"Packages/User/esp8266.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/john/Documents/Projects/House/coogle-sonoff-t1",
+		"/home/john/Documents/Projects/House/coogle-sonoff-t1/data"
+	],
+	"file_history":
+	[
+		"/home/john/Documents/Projects/House/coogle-sonoff-t1/coogle-swb1.sublime-project",
+		"/home/john/Documents/Projects/House/coogle-diy-switch/data/config.json",
+		"/home/john/Documents/Projects/House/coogle-swb1/app.h",
+		"/home/john/Documents/Projects/House/coogle-swb1/app.ld",
+		"/home/john/Documents/Projects/House/coogle-swb1/app.ino",
+		"/home/john/Documents/Projects/House/coogle-swb1/makeEspArduino.mk",
+		"/home/john/Documents/Projects/House/coogle-swb1/Makefile",
+		"/home/john/Documents/Projects/House/coogle-swb1/data/config.json",
+		"/home/john/Documents/Projects/House/coogle-swb1/rboot.h",
+		"/Users/john/Documents/Projects/House/IoTCode/coogle-swb1/makeEspArduino.mk",
+		"/Users/john/Documents/Projects/House/IoTCode/coogle-swb1/Makefile",
+		"/Volumes/FBS-V3/fbs/app/Http/Controllers/Institution/Library/SearchController.php",
+		"/Volumes/FBS-V3/fbs/resources/views/institution/library/search/results.blade.php",
+		"/Volumes/FBS-V3/fbs/app/Elasticsearch/QueryBuilder.php",
+		"/Volumes/FBS-V3/fbs/resources/assets/js/components/document-search-result.vue",
+		"/Volumes/FBS-V3/fbs/resources/lang/fr.json",
+		"/Volumes/FBS-V3/fbs/app/Notifications/SendNewPasswordNotification.php",
+		"/Volumes/FBS-V3/fbs/app/Http/Controllers/Admin/UserController.php",
+		"/Volumes/FBS-V3/fbs/resources/views/institution/library/publications/index.blade.php",
+		"/Volumes/FBS-V3/fbs/app/Console/Commands/ImportUsersCommand.php",
+		"/Volumes/FBS-V3/fbs/public/css/public.css",
+		"/Volumes/FBS-V3/fbs/resources/views/institution/dashboard/field-officer.blade.php",
+		"/Volumes/FBS-V3/fbs/resources/views/admin/user/list.blade.php",
+		"/Volumes/FBS-V3/fbs/resources/views/vendor/pagination/simple-default.blade.php",
+		"/Volumes/FBS-V3/fbs/resources/views/vendor/pagination/simple-bootstrap-4.blade.php",
+		"/Volumes/FBS-V3/fbs/routes/web.php",
+		"/Volumes/FBS-V3/fbs/resources/views/admin/user/password-reset-complete.blade.php",
+		"/Volumes/FBS-V3/fbs/resources/views/layouts/app.blade.php",
+		"/Volumes/FBS-V3/fbs/vendor/laravel/framework/src/Illuminate/Pagination/Paginator.php",
+		"/Volumes/FBS-V3/fbs/resources/views/layouts/admin-drawer.blade.php",
+		"/Volumes/FBS-V3/fbs/resources/views/admin/user/password-reset.blade.php",
+		"/Volumes/FBS-V3/fbs/app/Models/Institution.php",
+		"/Volumes/FBS-V3/fbs/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemAdapter.php",
+		"/Volumes/FBS-V3/fbs/app/Providers/BladeServiceProvider.php",
+		"/Volumes/FBS-V3/fbs/vendor/laravel/framework/src/Illuminate/Support/Str.php",
+		"/Volumes/FBS-V3/fbs/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+		"/Volumes/FBS-V3/fbs/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+		"/Volumes/FBS-V3/fbs/app/Http/Controllers/Admin/DashboardController.php",
+		"/Volumes/FBS-V3/fbs/app/Providers/RouteServiceProvider.php",
+		"/Volumes/FBS-V3/fbs/resources/views/admin/index.blade.php",
+		"/Volumes/FBS-V3/fbs/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/Volumes/FBS-V3/fbs/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php",
+		"/Volumes/FBS-V3/fbs/app/Notifications/Library/NewAgreementUploadedNotification.php",
+		"/Volumes/FBS-V3/fbs/app/Models/Agreement.php",
+		"/Volumes/FBS-V3/fbs/app/Notifications/Library/NewLegalUploadedNotification.php",
+		"/Volumes/FBS-V3/fbs/app/Models/Document.php",
+		"/Volumes/FBS-V3/fbs/app/Listeners/Institution/Library/LegalDocUploadedListener.php",
+		"/Volumes/FBS-V3/fbs/app/Providers/EventServiceProvider.php",
+		"/Volumes/FBS-V3/fbs/app/Listeners/Institution/Library/AgreementUploadedListener.php",
+		"/Volumes/FBS-V3/fbs/app/Http/Controllers/Api/Conversations/FeedbackController.php",
+		"/Volumes/FBS-V3/fbs/app/Models/User.php",
+		"/Volumes/FBS-V3/fbs/app/Notifications/CategorySuggestion.php",
+		"/Volumes/FBS-V3/fbs/vendor/zizaco/entrust/src/Entrust/Traits/EntrustUserTrait.php",
+		"/Volumes/FBS-V3/fbs/app/Jobs/Documents/ProcessUploadedAgreementDocument.php",
+		"/Volumes/FBS-V3/fbs/app/Http/Controllers/Institution/Library/UploadController.php",
+		"/Volumes/FBS-V3/fbs/app/Events/Institution/Library/LegalUploaded.php",
+		"/Volumes/FBS-V3/fbs/app/Http/Controllers/Institution/Library/PublicationsController.php",
+		"/Volumes/FBS-V3/fbs/app/Events/Institution/Library/PublicationUploaded.php",
+		"/Volumes/FBS-V3/fbs/app/Events/Institution/Library/PublicationProcessed.php",
+		"/Volumes/FBS-V3/fbs/app/Events/Institution/Library/AgreementProcessed.php",
+		"/Volumes/FBS-V3/fbs/app/Jobs/Documents/ProcessUploadedLegalDocument.php",
+		"/Volumes/FBS-V3/fbs/app/Jobs/Documents/ProcessUploadedPublication.php",
+		"/Volumes/FBS-V3/fbs/app/Events/Institution/Library/LegalProcessed.php",
+		"/Volumes/FBS-V3/fbs/resources/views/institution/library/search/index.blade.php",
+		"/Volumes/FBS-V3/fbs/app/Http/Controllers/Institution/AccountController.php",
+		"/Volumes/FBS-V3/fbs/resources/assets/js/components/my-account/inst-group-list-item.vue",
+		"/Volumes/FBS-V3/fbs/.env-dev",
+		"/Volumes/FBS-V3/fbs/.env-prod",
+		"/Volumes/FBS-V3/fbs/.env-staging",
+		"/Volumes/FBS-V3/fbs/resources/assets/js/app.js",
+		"/Volumes/FBS-V3/fbs/config/fbs.php",
+		"/Volumes/FBS-V3/fbs/webpack.mix.js",
+		"/Volumes/FBS-V3/fbs/resources/views/layouts/public.blade.php",
+		"/Volumes/FBS-V3/fbs/resources/views/public/index.blade.php",
+		"/Volumes/FBS-V3/fbs/resources/views/public/upgraded-needed.blade.php",
+		"/Volumes/FBS-V3/fbs/app/Http/Middleware/FilterIncompatiableBrowsers.php",
+		"/Volumes/FBS-V3/fbs/app/Http/Controllers/PublicController.php",
+		"/Volumes/FBS-V3/fbs/app/Http/Kernel.php",
+		"/Volumes/FBS-V3/fbs/vendor/hisorange/browser-detect/src/ServiceProvider.php",
+		"/Volumes/FBS-V3/fbs/resources/views/institution/dashboard/library.blade.php",
+		"/Volumes/FBS-V3/fbs/refresh-staging.sh",
+		"/Volumes/FBS-V3/fbs/app/Console/Commands/TriggerESSnapshotCommand.php",
+		"/Volumes/FBS-V3/fbs/app/Console/Commands/RestoreEsSnapshotCommand.php",
+		"/Volumes/FBS-V3/fbs/.env",
+		"/Volumes/FBS-V3/fbs/vendor/guzzlehttp/guzzle/src/Exception/ServerException.php",
+		"/Volumes/FBS-V3/fbs/vendor/guzzlehttp/guzzle/src/Exception/BadResponseException.php",
+		"/Volumes/FBS-V3/fbs/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php",
+		"/Volumes/FBS-V3/fbs/vendor/aws/aws-sdk-php/src/Credentials/CredentialProvider.php",
+		"/Volumes/FBS-V3/fbs/app/Console/Commands/InitElasticSearch.php",
+		"/Volumes/FBS-V3/fbs/app/Console/Commands/RegisterESS3SnapshotBucketCommand.php",
+		"/Volumes/FBS-V3/fbs/app/Http/Controllers/Api/Files/AWSS3Controller.php",
+		"/Volumes/FBS-V3/fbs/vendor/eddturtle/direct-upload/src/Signature.php",
+		"/Volumes/FBS-V3/fbs/config/elasticsearch.php",
+		"/Volumes/FBS-V3/fbs/vendor/jsq/amazon-es-php/src/ElasticsearchPhpHandler.php",
+		"/Volumes/FBS-V3/fbs/vendor/aws/aws-sdk-php/src/AwsClient.php",
+		"/Volumes/FBS-V3/fbs/vendor/aws/aws-sdk-php/src/ElasticsearchService/ElasticsearchServiceClient.php",
+		"/Volumes/FBS-V3/fbs/resources/views/institution/library/upload.blade.php",
+		"/Volumes/FBS-V3/fbs/routes/api.php",
+		"/Volumes/FBS-V3/fbs/app/Console/Commands/SyncUsersFromCsv.php",
+		"/Volumes/FBS-V3/fbs/app/Http/Controllers/Api/Components/Institution/ContactsController.php",
+		"/Volumes/FBS-V3/fbs/app/Http/Controllers/Institution/MemberDirectoryController.php",
+		"/Volumes/FBS-V3/fbs/app/Console/Commands/LaunchSendWelcomeEmails.php",
+		"/Volumes/FBS-V3/fbs/database/migrations/2019_10_02_210033_add_active_to_users_flag.php",
+		"/Volumes/FBS-V3/fbs/vendor/zizaco/entrust/src/Entrust/Entrust.php",
+		"/Volumes/FBS-V3/fbs/resources/views/layouts/public/header.blade.php",
+		"/Volumes/FBS-V3/fbs/resources/views/email/welcome-user.blade.php",
+		"/Volumes/FBS-V3/fbs/app/Util/GoogleCalendar.php",
+		"/Volumes/FBS-V3/fbs/app/Console/Commands/ImportPensions.php",
+		"/Volumes/FBS-V3/fbs/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/Volumes/FBS-V3/fbs/app/Console/Kernel.php",
+		"/Volumes/FBS-V3/fbs/database/migrations/2019_09_30_150926_add_welcome_token_to_users.php",
+		"/Volumes/FBS-V3/fbs/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php",
+		"/Volumes/FBS-V3/fbs/app/Http/Controllers/Auth/LoginController.php",
+		"/Volumes/FBS-V3/fbs/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php",
+		"/Volumes/FBS-V3/fbs/vendor/laravel/framework/src/Illuminate/Auth/Passwords/PasswordBroker.php",
+		"/Volumes/FBS-V3/fbs/vendor/laravel/framework/src/Illuminate/Auth/Passwords/DatabaseTokenRepository.php",
+		"/Volumes/FBS-V3/fbs/vendor/laravel/framework/src/Illuminate/Foundation/Auth/SendsPasswordResetEmails.php",
+		"/Volumes/FBS-V3/fbs/app/Mail/WelcomeNewUser.php",
+		"/Volumes/FBS-V3/fbs/vendor/laravel/framework/src/Illuminate/Auth/Authenticatable.php",
+		"/Volumes/FBS-V3/fbs/resources/views/layouts/public/login.blade.php",
+		"/Volumes/FBS-V3/fbs/config/version.yml",
+		"/Volumes/FBS-V3/fbs/resources/views/layouts/main-drawer.blade.php",
+		"/Volumes/FBS-V3/fbs/resources/views/layouts/public/footer.blade.php",
+		"/Volumes/FBS-V3/fbs/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php",
+		"/Volumes/FBS-V3/fbs/resources/views/auth/passwords/email.blade.php",
+		"/Volumes/FBS-V3/fbs/resources/views/auth/passwords/reset.blade.php",
+		"/Volumes/FBS-V3/fbs/app/Http/Controllers/Auth/ResetPasswordController.php",
+		"/Volumes/FBS-V3/fbs/resources/views/auth/login.blade.php"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"connected",
+			"write_flash",
+			"setupRelays",
+			"Serial"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								619,
+								619
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "makeEspArduino.mk",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14316,
+								14316
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5161.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app.ld",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2276,
+								2276
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9503,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2294,
+								2294
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 714.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1966,
+								1966
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 765.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "data/config.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								558,
+								558
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 120.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/esp8266.sublime-build",
+	"project": "coogle-sonoff-t1.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"searchController",
+				"app/Http/Controllers/Institution/Library/SearchController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 393.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
